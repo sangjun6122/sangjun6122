@@ -67,13 +67,15 @@ that directly inform my research.
 ## Current Research
 
 **X-ModalDef: Cross-Modal Defect Detection for Industrial Inspection**
-Bridging the domain gap between CAD drawings and scanned images via shape-aware feature fusion.
-Addresses scale, domain, and illumination invariance for MLCC printing plate inspection.
+A deep learning framework for detecting defects by comparing CAD drawings against scanned inspection images.
+Addresses the fundamental domain gap (binary vs. grayscale, different scales, varying illumination) through edge-based registration and shape-aware Siamese encoding.
+Target application: MLCC printing plate inspection where conventional pixel comparison fails.
 *Status: In preparation*
 
 **FAMI: Focus-Aware Metric Height Reconstruction for Ultra-Precision Surface Metrology**
-Single-domain learning approach for metric-scale height reconstruction from focus variation microscopy.
-Enables accurate surface metrology without multi-domain training data.
+Achieving LSCM-equivalent repeatability (±0.1μm) at 16× throughput using single-domain learning.
+Key insight: diverse cell geometries sharing identical material properties enable shape-agnostic height reconstruction from minimal calibration data.
+Enables transition from 10% sampling to 100% inline inspection in MLCC manufacturing.
 *Status: In preparation*
 
 ---
