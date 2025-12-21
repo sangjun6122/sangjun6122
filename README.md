@@ -66,14 +66,18 @@ that directly inform my research.
 
 ## Current Research
 
-**X-ModalDef: Bridging the Domain Gap Between CAD and Scan Images via Shape-Aware Feature Fusion for Industrial Defect Detection**
+**X-ModalDef: Cross-Modal Defect Detection for Industrial Inspection**
 
-Cross-modal defect detection addresses a fundamental challenge in automated optical inspection: reference images (CAD) and inspection targets (scans) originate from heterogeneous imaging modalities with inherent scale, domain, and photometric discrepancies. We propose X-ModalDef, which reformulates this problem as cross-modal feature fusion by exploiting structural shape information as a domain-invariant bridge. The framework introduces edge-based registration using phase congruency for illumination-invariant alignment, a Shape-Aware Siamese Encoder with Transformer backbone for learning structural correspondences through cross-attention, and a Change-Aware Decoder for precise defect localization via feature distance analysis.
+In automated optical inspection, reference images (CAD drawings) and inspection targets (scanned images) originate from fundamentally different imaging modalities—binary patterns at design-specific scales versus grayscale intensity maps under varying illumination. Conventional pixel-based comparison fails under such cross-modal discrepancies, while existing deep learning methods assume same-domain inputs.
+
+This work addresses the problem of detecting defects when reference and target images cannot be directly compared due to inherent domain gaps in scale, representation, and photometric characteristics.
 *Status: In preparation*
 
-**FAMI: Focus-Aware Metric Height Reconstruction for Ultra-Precision Surface Metrology via Single-Domain Learning**
+**FAMI: Focus-Aware Metric Height Reconstruction for Surface Metrology**
 
-Ultra-precision manufacturing demands sub-micrometer 3D metrology with stringent repeatability requirements. While Laser Scanning Confocal Microscopy (LSCM) provides the required precision, its point-scanning mechanism creates inherent throughput limitations incompatible with inline inspection. We present FAMI, a deep learning framework achieving LSCM-equivalent repeatability through single-domain learning—where diverse cell geometries sharing identical material and optical properties provide sufficient information density for learning microscope-invariant height reconstruction. The architecture introduces boundary-preserving encoding via Swin Transformer V2, multi-level focus attention for cross-scale blur-height learning, and uncertainty-guided reconstruction enabling adaptive fusion between optical measurement and learned geometric priors.
+Ultra-precision manufacturing requires sub-micrometer 3D surface measurement with high repeatability. Laser Scanning Confocal Microscopy (LSCM) achieves the required precision but its point-scanning mechanism creates throughput limitations incompatible with production-scale inspection. Conventional deep learning approaches require diverse multi-scene training data, which is impractical when ground truth acquisition is expensive.
+
+This work addresses the problem of achieving high-precision surface metrology at production-compatible throughput, using minimal calibration data from a single manufacturing domain.
 *Status: In preparation*
 
 ---
