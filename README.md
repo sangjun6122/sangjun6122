@@ -89,4 +89,4 @@ I focus on:
 
 📧 ssj6122@gmail.com
 
-🔗 GitHub is used to share research code, experiments, and system-level insights
+🔗 Please refer to individual repositories for detailed research implementations and experiments.
