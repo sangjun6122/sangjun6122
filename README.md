@@ -68,16 +68,28 @@ that directly inform my research.
 
 **X-ModalDef: Cross-Modal Defect Detection for Industrial Inspection**
 
-In automated optical inspection, reference images (CAD drawings) and inspection targets (scanned images) originate from fundamentally different imaging modalities—binary patterns at design-specific scales versus grayscale intensity maps under varying illumination. Conventional pixel-based comparison fails under such cross-modal discrepancies, while existing deep learning methods assume same-domain inputs.
+In automated optical inspection, reference images (CAD drawings) and inspection targets (scanned images) originate from fundamentally different imaging modalities—binary patterns at design-specific scales versus grayscale intensity maps under varying illumination.
 
-This work addresses the problem of detecting defects when reference and target images cannot be directly compared due to inherent domain gaps in scale, representation, and photometric characteristics.
+*Limitations of existing approaches:*
+- Pixel-based comparison fails under scale, domain, and illumination discrepancies
+- Deep learning methods assume same-domain inputs, inapplicable to cross-modal scenarios
+- Traditional feature matching lacks robustness for industrial defect localization
+
+*Research objective:*
+Enable defect detection across heterogeneous modalities by learning domain-invariant structural representations that bridge the CAD-to-scan gap.
 *Status: In preparation*
 
 **FAMI: Focus-Aware Metric Height Reconstruction for Surface Metrology**
 
-Ultra-precision manufacturing requires sub-micrometer 3D surface measurement with high repeatability. Laser Scanning Confocal Microscopy (LSCM) achieves the required precision but its point-scanning mechanism creates throughput limitations incompatible with production-scale inspection. Conventional deep learning approaches require diverse multi-scene training data, which is impractical when ground truth acquisition is expensive.
+Ultra-precision manufacturing requires sub-micrometer 3D surface measurement with high repeatability. Laser Scanning Confocal Microscopy (LSCM) achieves the required precision but its point-scanning mechanism creates throughput limitations incompatible with production-scale inspection.
 
-This work addresses the problem of achieving high-precision surface metrology at production-compatible throughput, using minimal calibration data from a single manufacturing domain.
+*Limitations of existing approaches:*
+- LSCM provides precision but prohibitive measurement time for inline inspection
+- Conventional deep learning requires diverse multi-scene training data
+- Focus-based methods fail on specular surfaces lacking texture information
+
+*Research objective:*
+Achieve LSCM-equivalent precision at production-compatible throughput through single-domain learning, where domain-specific optical physics can be learned from minimal calibration data.
 *Status: In preparation*
 
 ---
