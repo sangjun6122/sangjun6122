@@ -66,31 +66,29 @@ that directly inform my research.
 
 ## Current Research
 
-**X-ModalDef: Cross-Modal Defect Detection for Industrial Inspection**
+### X-ModalDef: Cross-Modal Defect Representation Learning for Industrial Inspection
 
-In automated optical inspection, reference images (CAD drawings) and inspection targets (scanned images) originate from fundamentally different imaging modalities—binary patterns at design-specific scales versus grayscale intensity maps under varying illumination.
+Industrial inspection systems often suffer from severe domain gaps between design references (e.g., CAD) and sensor data acquired from real equipment.  
+This research focuses on learning **cross-modal, domain-invariant representations** that enable robust defect detection under variations in optics, illumination, and surface conditions.
 
-*Limitations of existing approaches:*
-- Pixel-based comparison fails under scale, domain, and illumination discrepancies
-- Deep learning methods assume same-domain inputs, inapplicable to cross-modal scenarios
-- Traditional feature matching lacks robustness for industrial defect localization
+- **Problem:** Large appearance discrepancies between reference models and real inspection images cause instability in conventional vision-based inspection.
+- **Approach:** Learn defect representations shared across heterogeneous modalities (design references and sensor data).
+- **Goal:** Enable reliable defect detection across processes and equipment without exhaustive re-tuning.
 
-*Research objective:*
-Enable defect detection across heterogeneous modalities by learning domain-invariant structural representations that bridge the CAD-to-scan gap.
-*Status: In preparation*
+**Keywords:** cross-modal learning, industrial inspection, domain shift, defect representation  
+**Status:** In preparation
 
-**FAMI: Focus-Aware Metric Height Reconstruction for Surface Metrology**
+### FAMI: Focus-Aware Metrology Inference for Surface Measurement
 
-Ultra-precision manufacturing requires sub-micrometer 3D surface measurement with high repeatability. Laser Scanning Confocal Microscopy (LSCM) achieves the required precision but its point-scanning mechanism creates throughput limitations incompatible with production-scale inspection.
+Precise surface height and roughness measurement using **Laser Scanning Confocal Microscopy (LSCM)** is highly sensitive to focus conditions and optical constraints.  
+This research explores learning-based inference that explicitly accounts for focus-related uncertainty in metrology data.
 
-*Limitations of existing approaches:*
-- LSCM provides precision but prohibitive measurement time for inline inspection
-- Conventional deep learning requires diverse multi-scene training data
-- Focus-based methods fail on specular surfaces lacking texture information
+- **Problem:** Focus variation introduces systematic errors in height reconstruction for confocal-based surface metrology.
+- **Approach:** Integrate optical characteristics and focus behavior into deep learning–based inference.
+- **Goal:** Improve robustness and accuracy of surface metrology under real measurement conditions.
 
-*Research objective:*
-Achieve LSCM-equivalent precision at production-compatible throughput through single-domain learning, where domain-specific optical physics can be learned from minimal calibration data.
-*Status: In preparation*
+**Keywords:** surface metrology, confocal microscopy, focus-aware learning, height reconstruction  
+**Status:** In preparation
 
 ---
 
