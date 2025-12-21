@@ -15,8 +15,7 @@ My research bridges physical processes, sensing, and deep learning, with a focus
 - Hybrid systems combining physics, rules, and deep neural networks
 - Translating research models into deployable, real-time equipment
 
-Currently an M.S. candidate in Smart Factory Convergence at Sungkyunkwan University,
-researching deep learning for surface metrology.
+Currently an M.S. candidate at Sungkyunkwan University, focusing on deep learning for surface metrology.
 
 ---
 
