@@ -64,9 +64,22 @@ that directly inform my research.
 
 ---
 
-## Selected Research & Patents
+## Current Research
 
-- **M.S. Research** – Deep Learning for Surface Metrology (Smart Factory Convergence, SKKU)
+**X-ModalDef: Cross-Modal Defect Detection for Industrial Inspection**
+Bridging the domain gap between CAD drawings and scanned images via shape-aware feature fusion.
+Addresses scale, domain, and illumination invariance for MLCC printing plate inspection.
+*Status: In preparation*
+
+**FAMI: Focus-Aware Metric Height Reconstruction for Ultra-Precision Surface Metrology**
+Single-domain learning approach for metric-scale height reconstruction from focus variation microscopy.
+Enables accurate surface metrology without multi-domain training data.
+*Status: In preparation*
+
+---
+
+## Selected Patents
+
 - **Apparatus for Detecting Defects** – Filed 2024, KR + PCT
 - **Vision System for Gravure Roll Inspection** – Patent issued 2017
 
