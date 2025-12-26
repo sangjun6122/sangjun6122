@@ -25,7 +25,7 @@ Currently an M.S. candidate at Sungkyunkwan University, focusing on deep learnin
 
 - Deep learning–based defect detection & measurement
 - Hybrid inspection: DL + rule-based + optical heuristics
-- PyTorch, OpenCV, HALCON
+- PyTorch, OpenCV, HALCON, Open eVision, Matrox
 - Dataset construction from real production equipment
 
 ### 2. Precision Metrology & Physical Systems
