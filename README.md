@@ -49,7 +49,7 @@ Rather than separating research and engineering,
 I use production equipment as research platforms.
 
 **Thin-Film Metrology Instruments**
-Scratch tester, tribometer, stress analyzer
+Scratch tester, tribometer, residual stress tester
 → 40+ units deployed globally (ODM with Helmut Fischer, Germany)
 
 **Plasma Surface Treatment Systems**
