@@ -59,6 +59,9 @@ PECVD, PVD systems for electronics and automotive industries
 Cylindrical roll inspection for printed electronics and optical sheets
 → Deployed in domestic and international production lines
 
+[![JAVIS-EX System Demo](https://img.youtube.com/vi/pgvEWhvZqw8/maxresdefault.jpg)](https://www.youtube.com/watch?v=pgvEWhvZqw8)
+> **System Deployment Demo:** JAVIS-EX – An All-in-One platform integrating AI vision, repair, and 3D measurement logic.
+
 These systems provide real-world data, constraints, and failure modes
 that directly inform my research.
 
