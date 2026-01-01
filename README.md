@@ -51,6 +51,7 @@ I use production equipment as research platforms.
 **Thin-Film Metrology Instruments**
 Scratch tester, tribometer, residual stress tester
 → 40+ units deployed globally (ODM with Helmut Fischer, Germany)
+([https://www.youtube.com/watch?v=pgvEWhvZqw8](https://www.youtube.com/watch?v=0oHKaIS20rI))
 
 **Plasma Surface Treatment Systems**
 PECVD, PVD systems for electronics and automotive industries
@@ -58,9 +59,7 @@ PECVD, PVD systems for electronics and automotive industries
 **Roll-to-Roll Inspection Systems**
 Cylindrical roll inspection for printed electronics and optical sheets
 → Deployed in domestic and international production lines
-
-[![JAVIS-EX System Demo](https://img.youtube.com/vi/pgvEWhvZqw8/maxresdefault.jpg)](https://www.youtube.com/watch?v=pgvEWhvZqw8)
-> **System Deployment Demo:** JAVIS-EX – An All-in-One platform integrating AI vision, repair, and 3D measurement logic.
+([https://www.youtube.com/watch?v=pgvEWhvZqw8](https://www.youtube.com/watch?v=pgvEWhvZqw8))
 
 These systems provide real-world data, constraints, and failure modes
 that directly inform my research.
