@@ -56,7 +56,7 @@ Scratch tester, tribometer, residual stress tester
 **Plasma Surface Treatment Systems**
 PECVD, PVD systems for electronics and automotive industries
 
-**Roll-to-Roll Inspection Systems**
+**Roll Inspection Systems**
 Cylindrical roll inspection for printed electronics and optical sheets
 → Deployed in domestic and international production lines
 ([https://www.youtube.com/watch?v=pgvEWhvZqw8](https://www.youtube.com/watch?v=pgvEWhvZqw8))
