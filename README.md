@@ -59,7 +59,7 @@ PECVD, PVD systems for electronics and automotive industries
 **Roll Inspection Systems**
 Cylindrical roll inspection for printed electronics and optical sheets
 → Deployed in domestic and international production lines
-([JAVIS-EX](https://www.youtube.com/watch?v=Bq5Z4EJ2wGw&list=PLxq0Dm0hg4x5cY9UKnvqmRiBT1M12Nu-9&index=5), [JAVIS-S](https://www.youtube.com/watch?v=mzdEp6oPk9Y&list=PLxq0Dm0hg4x5cY9UKnvqmRiBT1M12Nu-9&index=1))
+([JAVIS-EX](https://www.youtube.com/watch?v=Bq5Z4EJ2wGw&list=PLxq0Dm0hg4x5cY9UKnvqmRiBT1M12Nu-9&index=5)) ([JAVIS-S](https://www.youtube.com/watch?v=mzdEp6oPk9Y&list=PLxq0Dm0hg4x5cY9UKnvqmRiBT1M12Nu-9&index=1))
 
 These systems provide real-world data, constraints, and failure modes
 that directly inform my research.
