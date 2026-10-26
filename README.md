@@ -1,121 +1,42 @@
 # Sang-Jun Song
 
-**AI Researcher in Industrial Metrology & Inspection**
-System Architect with 20+ years of equipment-level experience
+**Industrial metrology, machine vision, and equipment software**
 
----
+I develop measurement and inspection systems at J&L TECH in South Korea, drawing on more than 20 years of equipment engineering experience. I am also an M.S. student in Smart Factory Convergence at Sungkyunkwan University.
 
-## Research Focus
+My work connects optical measurements, image processing, machine learning, and the software needed to operate industrial equipment.
 
-I study AI-based precision metrology and inspection systems grounded in real industrial equipment.
-My research bridges physical processes, sensing, and deep learning, with a focus on:
+## Current Graduate Research
 
-- Learning-based surface & thin-film metrology
-- Defect detection under severe noise, variation, and domain shift
-- Hybrid systems combining physics, rules, and deep neural networks
-- Translating research models into deployable, real-time equipment
+**Reference-Guided 3D Reconstruction and Metrology of Repetitive Microstructures from Sparse Confocal Scans**
 
-Currently an M.S. candidate at Sungkyunkwan University, focusing on deep learning for surface metrology.
+Dense confocal scans provide surface measurements but require many images at each location. I am studying whether detailed measurements of a reference structure can support reconstruction from fewer axial images while preserving the differences between individual structures.
 
----
+The planned evaluation considers height and volume errors, preservation of structure-to-structure variation, and total measurement time, including reference acquisition. This is ongoing research; the repository records the research plan, manuscript development, and implementation work.
 
-## Core Domains & Capabilities
+[Research workspace](https://github.com/sangjun6122/reference-guided-sparse-confocal) · Private repository; access is restricted.
 
-### 1. Industrial AI & Machine Vision
+## Selected Repositories
 
-- Deep learning–based defect detection & measurement
-- Hybrid inspection: DL + rule-based + optical heuristics
-- PyTorch, OpenCV, HALCON, Open eVision, Matrox
-- Dataset construction from real production equipment
+| Repository | What it contains |
+|---|---|
+| [paper-evaluations](https://github.com/sangjun6122/paper-evaluations) | Reproduction studies and technical notes on depth estimation, 3D reconstruction, and defect detection models |
+| [smart-factory-dlc-anomaly-mvp](https://github.com/sangjun6122/smart-factory-dlc-anomaly-mvp) | A coursework prototype for phase-aware anomaly detection using synthetic coating-process logs |
 
-### 2. Precision Metrology & Physical Systems
+Model-specific experiments include [VGGT](https://github.com/sangjun6122/VGGT), [MoGe2](https://github.com/sangjun6122/MoGe2), [DepthAnythingV2](https://github.com/sangjun6122/DepthAnythingV2), [DepthPro](https://github.com/sangjun6122/DepthPro), [PIDDN](https://github.com/sangjun6122/PIDDN), and [FastRecon](https://github.com/sangjun6122/FastRecon). Original methods and their authors are credited in the individual repositories.
 
-- Thin-film scratch, stress, tribology measurement
-- Residual stress & magnetic field mapping
-- Understanding of process-induced measurement uncertainty
+## Engineering Background
 
-### 3. System & Control Architecture
+| Area | Experience |
+|---|---|
+| Measurement and inspection | Surface and thin-film metrology, scratch and tribology instruments, residual-stress measurement, roll inspection |
+| Machine vision | Optical inspection, image processing, defect detection, measurement pipelines |
+| Equipment software and control | C/C++ and MFC, Python, PLC systems, motion control, synchronization, system integration |
 
-- End-to-end inspection equipment design
-- Real-time motion control & synchronization
-- C/C++ (MFC), Python, PLC-based systems
-- Deployment under strict latency and reliability constraints
+Tools include PyTorch, OpenCV, HALCON, Open eVision, and Matrox imaging libraries.
 
----
-
-## What I Research Through Building
-
-Rather than separating research and engineering,
-I use production equipment as research platforms.
-
-**Thin-Film Metrology Instruments**
-Scratch tester, tribometer, residual stress tester
-→ 40+ units deployed globally (ODM with Helmut Fischer, Germany)
-([https://www.youtube.com/watch?v=pgvEWhvZqw8](https://www.youtube.com/watch?v=0oHKaIS20rI))
-
-**Plasma Surface Treatment Systems**
-PECVD, PVD systems for electronics and automotive industries
-
-**Roll Inspection Systems**
-Cylindrical roll inspection for printed electronics and optical sheets
-→ Deployed in domestic and international production lines
-([JAVIS-EX](https://www.youtube.com/watch?v=Bq5Z4EJ2wGw&list=PLxq0Dm0hg4x5cY9UKnvqmRiBT1M12Nu-9&index=5)) ([JAVIS-S](https://www.youtube.com/watch?v=mzdEp6oPk9Y&list=PLxq0Dm0hg4x5cY9UKnvqmRiBT1M12Nu-9&index=1))
-
-These systems provide real-world data, constraints, and failure modes
-that directly inform my research.
-
----
-
-## Current Research
-
-### X-ModalDef: Cross-Modal Defect Representation Learning for Industrial Inspection
-
-Industrial inspection systems often suffer from severe domain gaps between design references (e.g., CAD) and sensor data acquired from real equipment.  
-This research focuses on learning **cross-modal, domain-invariant representations** that enable robust defect detection under variations in optics, illumination, and surface conditions.
-
-- **Problem:** Large appearance discrepancies between reference models and real inspection images cause instability in conventional vision-based inspection.
-- **Approach:** Learn defect representations shared across heterogeneous modalities (design references and sensor data).
-- **Goal:** Enable reliable defect detection across processes and equipment without exhaustive re-tuning.
-
-**Keywords:** cross-modal learning, industrial inspection, domain shift, defect representation  
-**Status:** In preparation
-
-### FAMI: Focus-Aware Metrology Inference for Surface Measurement
-
-Precise surface height and roughness measurement using **Laser Scanning Confocal Microscopy (LSCM)** is highly sensitive to focus conditions and optical constraints.  
-This research explores learning-based inference that explicitly accounts for focus-related uncertainty in metrology data.
-
-- **Problem:** Focus variation introduces systematic errors in height reconstruction for confocal-based surface metrology.
-- **Approach:** Integrate optical characteristics and focus behavior into deep learning–based inference.
-- **Goal:** Improve robustness and accuracy of surface metrology under real measurement conditions.
-
-**Keywords:** surface metrology, confocal microscopy, focus-aware learning, height reconstruction  
-**Status:** In preparation
-
----
-
-## Selected Patents
-
-- **Apparatus for Detecting Defects** – Filed 2024, KR + PCT
-- **Vision System for Gravure Roll Inspection** – Patent issued 2017
-
----
-
-## Research Philosophy
-
-Industrial AI is not about maximizing benchmark accuracy,
-but about minimizing uncertainty under real constraints.
-
-I focus on:
-
-- Why models fail in production
-- How physical processes shape data distributions
-- How AI systems can be trusted on real equipment
-
----
+Examples of equipment work: [thin-film measurement instruments](https://www.youtube.com/watch?v=0oHKaIS20rI), [JAVIS-EX](https://www.youtube.com/watch?v=Bq5Z4EJ2wGw), and [JAVIS-S](https://www.youtube.com/watch?v=mzdEp6oPk9Y).
 
 ## Contact
 
-📧 ssj6122@gmail.com
-
-🔗 Please refer to individual repositories for detailed research implementations and experiments.
+[ORCID: 0009-0002-9905-1758](https://orcid.org/0009-0002-9905-1758) · [ssj6122@gmail.com](mailto:ssj6122@gmail.com)
