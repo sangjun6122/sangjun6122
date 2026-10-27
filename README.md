@@ -1,41 +1,41 @@
 # Sang-Jun Song
 
-**Industrial metrology, machine vision, and equipment software**
+**Industrial metrology · Machine vision · Equipment software**
 
-I develop measurement and inspection systems at J&L TECH in South Korea, drawing on more than 20 years of equipment engineering experience. I am also an M.S. student in Smart Factory Convergence at Sungkyunkwan University.
+I develop measurement and inspection equipment at J&L TECH in South Korea, with more than 20 years of experience in equipment engineering. I am also an M.S. student in Smart Factory Convergence at Sungkyunkwan University.
 
-My work connects optical measurements, image processing, machine learning, and the software needed to operate industrial equipment.
+Research interests: 3D metrology and reconstruction, computer vision, and machine learning for industrial inspection.
 
-## Current Graduate Research
+## Current Research
 
 **Reference-Guided 3D Reconstruction and Metrology of Repetitive Microstructures from Sparse Confocal Scans**
 
-Dense confocal scans provide surface measurements but require many images at each location. I am studying whether detailed measurements of a reference structure can support reconstruction from fewer axial images while preserving the differences between individual structures.
+Dense confocal scanning requires multiple axial images at each measurement location. The proposed approach uses dense measurements of a reference structure and fewer axial images of other structures to investigate whether measurement time can be reduced while preserving differences between individual microstructures.
 
-The planned evaluation considers height and volume errors, preservation of structure-to-structure variation, and total measurement time, including reference acquisition. This is ongoing research; the repository records the research plan, manuscript development, and implementation work.
+The planned evaluation will assess height and volume errors, preservation of structure-to-structure variation, and total measurement time, including reference acquisition.
 
-[Research workspace](https://github.com/sangjun6122/reference-guided-sparse-confocal) · Private repository; access is restricted.
+**Status:** In progress · Private repository
 
-## Selected Repositories
+## Selected Work
 
-| Repository | What it contains |
-|---|---|
-| [paper-evaluations](https://github.com/sangjun6122/paper-evaluations) | Reproduction studies and technical notes on depth estimation, 3D reconstruction, and defect detection models |
-| [smart-factory-dlc-anomaly-mvp](https://github.com/sangjun6122/smart-factory-dlc-anomaly-mvp) | A coursework prototype for phase-aware anomaly detection using synthetic coating-process logs |
+[**paper-evaluations**](https://github.com/sangjun6122/paper-evaluations) — Technical evaluations and implementation reviews of computer vision models related to measurement, 3D reconstruction, and defect detection.
 
-Model-specific experiments include [VGGT](https://github.com/sangjun6122/VGGT), [MoGe2](https://github.com/sangjun6122/MoGe2), [DepthAnythingV2](https://github.com/sangjun6122/DepthAnythingV2), [DepthPro](https://github.com/sangjun6122/DepthPro), [PIDDN](https://github.com/sangjun6122/PIDDN), and [FastRecon](https://github.com/sangjun6122/FastRecon). Original methods and their authors are credited in the individual repositories.
+- **Monocular depth and geometry:** [DepthAnythingV2](https://github.com/sangjun6122/DepthAnythingV2), [DepthPro](https://github.com/sangjun6122/DepthPro), [MoGe2](https://github.com/sangjun6122/MoGe2)
+- **Multi-view 3D reconstruction:** [VGGT](https://github.com/sangjun6122/VGGT)
+- **Defect and anomaly detection:** [PIDDN](https://github.com/sangjun6122/PIDDN), [FastRecon](https://github.com/sangjun6122/FastRecon)
+
+Original methods and their authors are credited in the individual repositories.
 
 ## Engineering Background
 
 | Area | Experience |
 |---|---|
 | Measurement and inspection | Surface and thin-film metrology, scratch and tribology instruments, residual-stress measurement, roll inspection |
-| Machine vision | Optical inspection, image processing, defect detection, measurement pipelines |
-| Equipment software and control | C/C++ and MFC, Python, PLC systems, motion control, synchronization, system integration |
+| Machine vision | Optical inspection, image processing, defect detection |
+| Equipment software and control | C/C++ (MFC), Python, PLC, motion control, synchronization, system integration |
+| Imaging and ML libraries | PyTorch, OpenCV, HALCON, Open eVision, Matrox |
 
-Tools include PyTorch, OpenCV, HALCON, Open eVision, and Matrox imaging libraries.
-
-Examples of equipment work: [thin-film measurement instruments](https://www.youtube.com/watch?v=0oHKaIS20rI), [JAVIS-EX](https://www.youtube.com/watch?v=Bq5Z4EJ2wGw), and [JAVIS-S](https://www.youtube.com/watch?v=mzdEp6oPk9Y).
+Equipment examples: [Thin-film measurement instruments](https://www.youtube.com/watch?v=0oHKaIS20rI) · [JAVIS-EX](https://www.youtube.com/watch?v=Bq5Z4EJ2wGw) · [JAVIS-S](https://www.youtube.com/watch?v=mzdEp6oPk9Y)
 
 ## Contact
 
