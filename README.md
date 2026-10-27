@@ -10,7 +10,7 @@ Research interests: 3D metrology and reconstruction, computer vision, and machin
 
 **Reference-Guided 3D Reconstruction and Metrology of Repetitive Microstructures from Sparse Confocal Scans**
 
-Dense confocal scanning requires multiple axial images at each measurement location. The proposed approach uses dense measurements of a reference structure and fewer axial images of other structures to investigate whether measurement time can be reduced while preserving differences between individual microstructures.
+Dense confocal scanning requires multiple axial images at each measurement location. The proposed approach uses dense measurements of a reference structure and fewer axial images of other structures. The study evaluates whether this approach can reduce measurement time without losing differences between individual microstructures.
 
 The planned evaluation will assess height and volume errors, preservation of structure-to-structure variation, and total measurement time, including reference acquisition.
 
